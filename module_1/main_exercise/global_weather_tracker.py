@@ -59,7 +59,7 @@ tracker.list_cities_weather()
 print("==========================================================")
 
 tracker.update_weather(
-    "rome",
+    "Rome",
     WeatherRecord(12, "Rainy", 33)
 )
 
