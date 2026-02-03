@@ -1,0 +1,7 @@
+[tool.pytest.ini_options]
+markers = [
+    "smoke: description for smoke",
+    "regression: description for regression",
+    "api_mock: global weather tracker mocking API call",
+    "api_live: global weather tracker calling to API"
+]
