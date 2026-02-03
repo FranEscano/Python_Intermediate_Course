@@ -1,2 +1,19 @@
 module_3/pytest_framework/__pycache__/calculator.cpython-314.pyc
-__pycache__
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Virtual env
+env/
+venv/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
