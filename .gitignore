@@ -1,19 +1,22 @@
 module_3/pytest_framework/__pycache__/calculator.cpython-314.pyc
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
-*.egg-info/
-*.egg
+*.pyo
 
-# Virtual env
-env/
+# Virtual envs
 venv/
-ENV/
+env/
 .venv/
 
-# IDEs
+# VS Code
 .vscode/
-.idea/
 
-# Logs
-*.log
+# MacOS / Windows
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+*.egg-info/
